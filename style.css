@@ -42,8 +42,8 @@ section .card {
 
 section .card .content {
     position: absolute;
-    /* bottom: -200px; */
-    bottom: 0;
+    bottom: -200px;
+    /* bottom: 0; */
     width: 100%;
     height: 200px;
     display: flex;
@@ -72,8 +72,8 @@ section .card .content h2 {
     text-transform: uppercase;
     transition: 0.5s;
     transition-delay: 0.4s;
-    /* opacity: 0; */
-    /* transform: translateY(-40px); */
+    opacity: 0;
+    transform: translateY(-40px);
 }
 
 section .card:hover .content h2 {
@@ -94,8 +94,8 @@ section .card .content .btn-primary {
     text-transform: uppercase;
     transition: .5s;
     transition-delay: .2s;
-    /* opacity: 0; */
-    /* transform: translateY(40px); */
+    opacity: 0;
+    transform: translateY(40px);
 }
 
 section .card:hover .content .btn-primary {
