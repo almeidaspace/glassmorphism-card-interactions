@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glassmorphism User Card | Almeida Space </title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section>
+        <div class="card">
+            <div class="image-box">
+                <img src="img Bali, Indonesia.jpeg" alt="Bali, Indonesia">
+            </div>
+            <div class="content">
+                <h2>Bali, Indonesia</h2>
+                <a href="#" class="btn-primary">Book Now</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image-box">
+                <img src="img Manorala, Italy.jpeg" alt="Manorala, Italy">
+            </div>
+            <div class="content">
+                <h2>Manorala, Italy</h2>
+                <a href="#" class="btn-primary">Book Now</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image-box">
+                <img src="img Sultanahmet, Turkey.jpeg" alt="Sultanahmet, Turkey">
+            </div>
+            <div class="content">
+                <h2>Sultanahmet, Turkey</h2>
+                <a href="#" class="btn-primary">Book Now</a>
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+            max: 25,
+            speed: 400
+        });
+        
+        //It also supports NodeList
+        // VanillaTilt.init(document.querySelectorAll(".card"));
+    </script>
+
+</body>
+
+</html>
